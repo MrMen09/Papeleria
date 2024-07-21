@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         rv1=findViewById(R.id.rv1);
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-
+        rv1.setLayoutManager(linearLayoutManager);
     }
 }
